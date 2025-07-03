@@ -4,20 +4,29 @@ interface IProps {
         title: string;
         isComplete: boolean;
     }[];
-    owner: string;
-    age: number;
+    owner?: string;
+    age?: number;
+
+    hanldeDelete: (id: number) => void;
 }
 
 const TodoData = (props: IProps) => {
-    const { todos, owner, age } = props;
+    const { todos, owner = "unknown", age = "unknown" } = props;
+    const { hanldeDelete } = props;
+
     return (
-        <div>
+        <div className="todo-data">
             {
                 todos.map((todo) => (
-                    <div key={todo.id}>
+                    <div key={todo.id} className={`todo-item ${todo.isComplete ? 'completed' : ''}`}>
                         <h3>{todo.title}</h3>
-                        <p>Status: {todo.isComplete ? "Completed" : "Pending"}</p>
-                        <p>Owner: {owner}, Age: {age}</p>
+                        <p>Status:
+                            <span className={`todo-status ${todo.isComplete ? 'completed' : 'pending'}`}>
+                                {todo.isComplete ? "Completed" : "Pending"}
+                            </span>
+                        </p>
+                        <div className="todo-owner">Owner: {owner}, Age: {age}</div>
+                        <button onClick={() => hanldeDelete(todo.id)}>Delete</button>
                     </div>
                 ))
             }

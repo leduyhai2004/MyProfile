@@ -1,4 +1,6 @@
 import ToDoList from "./components/todo.list"
+import './styles/todo.css'
+
 function App() {
 
   return (
