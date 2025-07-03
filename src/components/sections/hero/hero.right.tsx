@@ -21,7 +21,7 @@ const HeroRight = () => {
                     <div>
                         <span className="ms-4 me-2">name:</span>
                         <span className='text-yellow-500'>
-                            {`'`}Hỏi Dân IT{`',`}
+                            {`'`}Le Duy Hai{`',`}
                         </span>
                     </div>
                     <div className="ms-4 me-2 text-pink-200">
@@ -43,7 +43,7 @@ const HeroRight = () => {
                         <span>{"', '"}</span>
                         <span >Docker</span>
                         <span>{"', '"}</span>
-                        <span >K8S</span>
+                        <span >NodeJS</span>
                         <span>{"'],"}</span>
                     </div>
                     <div>

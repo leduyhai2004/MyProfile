@@ -19,7 +19,7 @@ const HeroLeft = (props: IProps) => {
         if (newWindow) newWindow.opener = null
     }
     const handleDownloadCV = () => {
-        openInNewTab("https://drive.google.com/file/d/1nhaXoxozVgdN2kQc6zI8-9ftkueqkuqb/view?usp=drive_link")
+        openInNewTab("https://www.topcv.vn/xem-cv/VFEFVV8EB1YEUVoDBFQEAAUEBgAMUlMGCgBQAQdb96")
     }
     return (
         <div className='hero-left'>
@@ -36,10 +36,8 @@ const HeroLeft = (props: IProps) => {
             <Typewriter
                 options={{
                     strings: [
-                        "Software Developer",
+                        "Fullstack Developer",
                         "Freelancer",
-                        "MERN Stack Developer",
-                        "Open Source Contributor",
                     ],
                     autoStart: true,
                     loop: true,
@@ -51,10 +49,7 @@ const HeroLeft = (props: IProps) => {
                 className="mt-md-6 mt-3 mb-md-5 mb-2"
             >
                 <SocialMedia
-                    youtube={APP_DATA.YOUTUBE_URL}
                     facebook={APP_DATA.FACEBOOK_URL}
-                    tiktok={APP_DATA.TIKTOK_URL}
-                    udemy={APP_DATA.UDEMY_URL}
                 />
             </div>
             <div className="d-md-flex d-none gap-4">
