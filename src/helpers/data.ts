@@ -22,7 +22,7 @@ export const EXPERIENCES = [
         },
         duration: {
             vi: "Tháng 7 2025 - Hiện tại",
-            en: "July 2024 - Present"
+            en: "July 2025 - Present"
         }
     },
         {
@@ -37,7 +37,7 @@ export const EXPERIENCES = [
         },
         duration: {
             vi: "Tháng 6 2025 - Hiện tại",
-            en: "June 2024 - Present"
+            en: "June 2025 - Present"
         }
     },
     {
