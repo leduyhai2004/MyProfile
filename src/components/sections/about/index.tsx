@@ -38,7 +38,7 @@ const About = () => {
                         <p className="text-center brand-red">"Pursuing Your Dreams Is How You Become Homeless ~.~"</p>
                         <p className="text-center brand-red">--Jimmy O Yang</p>
                     </div>                    <div>
-                        <p >📞 : 033600155</p>
+                        <p >📞 : 0336080155</p>
                         <p >📧 : duyha0207@gmail.com </p>
                     </div>
                 </Col >
@@ -68,14 +68,14 @@ const About = () => {
                                 <div className="p-3 relative">
                                     <div className="experience-container">
                                         <div className="duration-text">
-                                            <p>20xx-20xx</p>
+                                            <p>2022-2026</p>
                                         </div>
                                         <div className="details">
                                             <div className="icon">
                                                 <FaGraduationCap size={36} />
                                             </div>
                                             <div className="info">
-                                                <p className="title">Developer</p>
+                                                <p className="title">Information Technology</p>
                                                 <p className="company">Hanoi University (HANU)</p>
                                             </div>
                                         </div>
