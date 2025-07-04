@@ -37,6 +37,9 @@ const About = () => {
                     <div>
                         <p className="text-center brand-red">"Pursuing Your Dreams Is How You Become Homeless ~.~"</p>
                         <p className="text-center brand-red">--Jimmy O Yang</p>
+                    </div>                    <div>
+                        <p >📞 : 033600155</p>
+                        <p >📧 : duyha0207@gmail.com </p>
                     </div>
                 </Col >
                 <Col md={6} xs={12} className="d-flex align-items-center justify-content-center">

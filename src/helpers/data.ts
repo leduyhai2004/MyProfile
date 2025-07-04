@@ -47,7 +47,7 @@ export const PROJECTS = [
         id: 1,
         imgPath: reactNativeImg,
         title: "React Native",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description: "These React-Native projects are primarily for self-learning and strengthening fundamental skills. They include simple applications like a Todo-app for task management, a Weather-app for checking weather information, and a Time-down app for countdowns...",
         githubLink: "https://github.com/leduyhai2004/react-native",
         demoLink: "#"
     },
@@ -55,7 +55,7 @@ export const PROJECTS = [
         id: 2,
         imgPath: springRestImg,
         title: "Find Job online with Spring Boot Restful API",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description: "This is a job search website developed with Spring Boot for the backend and ReactJS for the frontend. The project integrates RESTful APIs for data management and utilizes JWT (JSON Web Tokens) to ensure secure user authentication...",
         githubLink: "https://github.com/leduyhai2004/java-spring-restful-api",
         demoLink: "#"
     },
@@ -63,7 +63,7 @@ export const PROJECTS = [
         id: 3,
         imgPath: springMvcImg,
         title: "Laptop Website with Java Spring MVC",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description: "This project is a laptop e-commerce website built on the Spring Boot framework following the MVC (Model-View-Controller) pattern. The user interface is designed using Bootstrap, and the project uses Sessions to manage user login states...",
         githubLink: "https://github.com/leduyhai2004/java-spring-mvc",
         demoLink: "#"
     },
@@ -71,7 +71,7 @@ export const PROJECTS = [
         id: 4,
         imgPath: nextjsImg,
         title: "Book Store Website with Spring Boot and ReactJS",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description: "This is an online bookstore website developed using Spring Boot for the backend and ReactJS for the frontend. The system employs JWT (JSON Web Tokens) to secure transactions and user information...",
         githubLink: "https://github.com/leduyhai2004/BookWebBackend",
         demoLink: "#"
     },
@@ -79,7 +79,7 @@ export const PROJECTS = [
         id: 5,
         imgPath: nestImg,
         title: "Ecommerce Website with Spring Boot and Angular",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description: "This project is a multi-category online e-commerce website, built with Spring Boot (backend) and Angular (frontend). The website integrates numerous advanced technologies such as Spring Security 6, Docker, Redis, Kafka, Database Migrations with Flyway, and OAuth2 (Google, Facebook) for a robust and secure experience...",
         githubLink: "https://github.com/leduyhai2004/shoppapp-backend",
         demoLink: "#"
     },
@@ -87,7 +87,7 @@ export const PROJECTS = [
         id: 6,
         imgPath: reactUltimateImg,
         title: "Hotel Booking Website with ReactJS and Spring Boot",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description: "This is an online hotel booking website, utilizing Spring Boot to build the backend API and ReactJS for the user interface. The project applies JWT (JSON Web Tokens) to ensure the security of booking transactions and personal information...",
         githubLink: "",
         demoLink: ""
     }
