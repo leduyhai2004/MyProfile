@@ -9,7 +9,7 @@ const SocialMedia = (props: IProps) => {
 
     return (
         <div className="my-4 d-flex items-center gap-3">
-            <a href={facebook} target='_blank' className="highlight" title="Le Duy HaiT">
+            <a href={facebook} target='_blank' className="highlight" title="Le Duy Hai">
                 <FaFacebook size={30} />
             </a>
 
