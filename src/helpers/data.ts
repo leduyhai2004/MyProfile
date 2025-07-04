@@ -22,11 +22,26 @@ export const EXPERIENCES = [
         },
         duration: {
             vi: "Tháng 7 2025 - Hiện tại",
-            en: "JULY 2024 - Present"
+            en: "July 2024 - Present"
+        }
+    },
+        {
+        id: 2,
+        title: {
+            vi: "Lập Trình Viên(NestJS Backend)",
+            en: "Fullstack Developer(NestJS Backend)"
+        },
+        company: {
+            vi: "Công ty eUp.",
+            en: "eUp Company."
+        },
+        duration: {
+            vi: "Tháng 6 2025 - Hiện tại",
+            en: "June 2024 - Present"
         }
     },
     {
-        id: 2,
+        id: 3,
         title: {
             vi: "Dự án tự làm",
             en: "Self Employed"

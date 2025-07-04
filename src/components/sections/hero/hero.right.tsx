@@ -29,9 +29,9 @@ const HeroRight = () => {
                         <span>{`['`}</span>
                         <span >React</span>
                         <span>{"', '"}</span>
-                        <span >Redux</span>
+                        <span >Angular</span>
                         <span>{"', '"}</span>
-                        <span >NextJS</span>
+                        <span >ReactJS</span>
                         <span>{"', '"}</span>
                         <span >Java Spring</span>
                         <span>{"', '"}</span>
